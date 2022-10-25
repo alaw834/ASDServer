@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="9" failures="0" errors="0" time="1.224">
+  <testsuite name="tests\accountFeature.test.js" errors="0" failures="0" skipped="0" timestamp="2022-10-03T09:48:32" time="1.173" tests="9">
+    <testcase classname="GET /user/listAll should get a response" name="GET /user/listAll should get a response" time="0.001">
+    </testcase>
+    <testcase classname="Empty form in edit function should return formIsValid = false" name="Empty form in edit function should return formIsValid = false" time="0.001">
+    </testcase>
+    <testcase classname="Correct form in edit function should return formIsValid = true" name="Correct form in edit function should return formIsValid = true" time="0">
+    </testcase>
+    <testcase classname="First Name has numbers should return formIsValid = false" name="First Name has numbers should return formIsValid = false" time="0">
+    </testcase>
+    <testcase classname="Last Name has numbers should return formIsValid = false" name="Last Name has numbers should return formIsValid = false" time="0.001">
+    </testcase>
+    <testcase classname="Phone Number has letters should return formIsValid = false" name="Phone Number has letters should return formIsValid = false" time="0">
+    </testcase>
+    <testcase classname="Phone Number length != 10 should return formIsValid = false" name="Phone Number length != 10 should return formIsValid = false" time="0">
+    </testcase>
+    <testcase classname="Postcode length != 4 should return formIsValid = false" name="Postcode length != 4 should return formIsValid = false" time="0">
+    </testcase>
+    <testcase classname="Postcode has letters should return formIsValid = false" name="Postcode has letters should return formIsValid = false" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>
