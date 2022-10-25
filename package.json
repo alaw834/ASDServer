@@ -28,7 +28,7 @@
     "main": "index.js",
     "scripts": {
       "test": "jest",
-      "build": "cd client && rm -r build && npm run build",
+      "build": "cd client && npm run build",
       "dev": "concurrently -n 'server, json-server, client' -c 'red,blue,green' \"npm run server\" \"npm run json-server\" \"npm run client\" ",
       "start": "concurrently -n 'server,client' -c 'red,green' \"npm run server\" \"npm run client\" ",
       "client": "cd client && npm start",
